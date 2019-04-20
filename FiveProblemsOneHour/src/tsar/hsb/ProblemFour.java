@@ -17,7 +17,7 @@ public class ProblemFour {
 
 		Arrays.sort(stringArray, new Comparator<String>() {
 			public int compare(String x, String y) {
-				return (y + x).compareTo(x + y);
+				return (y).compareTo(x);
 			}
 		});
 
